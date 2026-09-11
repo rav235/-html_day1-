@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header style="text-align: center; background-color: rgb(243, 147, 241);" >
+        <h1>WELCOME TO MY FORM PAGE</h1>
+    </header>
+    <form style="text-align: center; background-color: lightblue;" action="day6.html" method="post">
+    <label for="username">Name:</label>
+    <input type ='text' id="username" name='name' placeholder='Enter your name' required><br><br>
+    
+    <label for="email">Email:</label>
+    <input type ='email' id="email" name='email' placeholder='Enter your email' required><br><br>
+    
+    <label for="phone">Phone:</label>
+    <input type ='tel' id="phone" name='phone' placeholder='Enter your phone number' required><br><br>
+    
+    <label for="message">Message:</label>
+    <textarea id="message" name='message' placeholder='Enter your message' required></textarea><br><br>  
+    
+    <label for="password">Password:</label>
+    <input type='password' id="password" name='password' required><br><br>
+    
+    <label for="submit">Submit</label>
+    <input type='submit' id="submit" value='Submit'> <br><br>
+    
+    <label for="gender">Gender:</label>
+    <input type='radio' id="male" name='gender' value='male' required> Male
+    
+    <input type='radio' id="female" name='gender' value='female' required> Female
+    <input type="radio" id="other" name="gender" value="other" required> Other<br><br>
+    
+    <label for="subscribe">Checkbox</label>
+    <input type="checkbox" id="subscribe" name="subscribe" value="yes"> Subscribe to newsletter<br><br>
+
+    <label for="language">Language:</label>
+    <select id="language" name="language" required>
+        <option value="english">English</option>
+        <option value="spanish">Hindi</option>
+        <option value="french">French</option>
+    </select><br><br>  
+    <label for="intrest">intrest:</label>
+    <select id="intrest" name="intrest" required>
+        <option value="english">sport</option>
+        <option value="spanish">acting</option>
+        <option value="french">eating</option>
+    </select><br><br>  
+    <label for="file">Upload File:</label>
+    <input type="file" id="file" name="file">
+    </form>
+
+    <div>
+        
+        <p>This is my form page and i have created this form page using html and css and i have used different types of input fields in this form page</p>
+        
+    </div>
+
+<footer style="text-align: center; background-color: rgb(243, 147, 241);">
+
+    <p>Copyright &copy; 2024</p>
+</footer>
+</body>
+</html>
